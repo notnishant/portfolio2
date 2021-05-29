@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio2/screens/Drawer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -89,7 +90,10 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
-        drawer: Drawer(),
+        drawer: Drawer(
+          child: Draw(),
+
+        ),
       ),
     );
   }
