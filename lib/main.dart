@@ -71,9 +71,9 @@ class MyApp extends StatelessWidget {
         ),
       ),Center(
           child: Image.asset(
-            'images/imagevector.png',
-            //'images/8401.jpg',
-            //fit: BoxFit.scaleDown,
+            //'images/imagevector.png',
+            'images/8401.jpg',
+            fit: BoxFit.scaleDown,
           ),
         ),
             Container(
